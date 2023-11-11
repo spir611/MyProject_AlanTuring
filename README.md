@@ -13,7 +13,9 @@ Sources: Other websites: https:    https://www.forbes.com/sites/gilpress/2017/11
                                    https://www.pbs.org/newshour/science/8-things-didnt-know-alan-turing
 
 Images and Videos: Source of images : Internet 
-                              Videos: https://www.youtube.com/watch?v=jzcZDVDJVL0 (Turing Machine Turing Test)
-                                      https://youtu.be/3wLqsRLvV-c?si=DETAs9MqWv7PJSdQ Alan Turing Biography
-                                      https://youtu.be/gtRLmL70TH0?si=Z_47i8Wqi1T7tyjR Alan Turing Biography
-                                      https://youtu.be/NDK78221OUk?si=AyHG-k0j1wsWxihh (enigma)
+
+
+Videos: https://www.youtube.com/watch?v=jzcZDVDJVL0 (Turing Machine Turing Test)
+        https://youtu.be/3wLqsRLvV-c?si=DETAs9MqWv7PJSdQ Alan Turing Biography
+        https://youtu.be/gtRLmL70TH0?si=Z_47i8Wqi1T7tyjR Alan Turing Biography
+        https://youtu.be/NDK78221OUk?si=AyHG-k0j1wsWxihh (enigma)
