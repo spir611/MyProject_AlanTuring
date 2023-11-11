@@ -1,0 +1,280 @@
+/************************************************************/
+/*                                                          */
+/*          Hoja de estilo de Proyecto Alan Turing          */
+/*          autora: Sandra Pirpamer                         */
+/*          version: 1.0                                    */
+/*          fecha: noviembre de 2023                        */
+/*          comentario: Proyecto Lenguaje de Marcas         */
+/************************************************************/
+
+
+@font-face {  
+    font-family: alanturing;
+    src: url(../font/CHECKBK0.TTF)
+} 
+
+@font-face {
+    font-family: textonormal;
+    src: url(../font/OpenSans-Regular.ttf)
+
+}
+* {box-sizing: border-box;
+} 
+
+
+body {margin:0; padding: 0;    
+    background-color: #202020;
+    margin: 0;
+    font-family: textonormal;}
+
+#wrapper {background-color:white;
+        width: 80%;    
+        margin:auto;}   
+
+   
+
+
+#hero {
+    background-image: url(../img/DALL·E\ 2023-11-04\ 21.12.23.jpg);
+                    height: 100vh;  
+                    background-size: cover; 
+                    background-position: center ;
+                    position: relative; 
+                    
+                    background-position: 66%; 
+                    
+}                  
+
+ #hero button {
+                /*background-color: rgb(41, 37, 37);*/
+                background-color: white;
+                box-shadow: inset;
+                border: 1px 1px solid grey;
+                color: rgb(9, 50, 235);
+                font-weight: bold;
+                font-family: alanturing;
+                font-size: 1.7em;
+                letter-spacing: 3px;
+                padding: 5px 10px;;
+                border: none;
+                border-radius: 10px;
+                display: inline;
+                position: absolute; 
+                top: 7%;  
+                left: 35%;
+                
+
+ }  
+ 
+ #name {
+     font-family: alanturing;
+    font-size: 4em;
+    font-weight: bold;
+    color: rgb(9, 50, 235);
+    text-align: left;
+    position: absolute;
+    margin-left: 1%;
+    top: 10px;
+ }
+
+ #lastname {
+    font-family: alanturing;
+    font-size: 5.5em;
+    min-height: 70px;
+    font-weight: bold;
+    color: rgb(9, 50, 235);
+    position: absolute;
+    top: 130px;
+    margin-left: 1%;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+ }
+
+
+        
+.nav-enlace {
+    position: sticky;
+    display: inline-block;
+    background: black;
+    color: white;
+    padding-right: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+#fafabars{
+    display:none;
+}
+
+.nav-enlace:hover {
+    background: rgb(9, 50, 235);
+}
+
+nav {
+    position: sticky;
+    background: black;
+    padding: 1px;
+    display: flex;
+    justify-content: right;
+    height: 1%;
+
+}
+h2 {
+    font-family: alanturing;
+    letter-spacing: 3px;
+    color: rgb(9, 50, 235);
+    
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 4px solid rgb(9, 50, 235);
+    padding: 10%;
+    
+}    
+
+#contents {
+    padding: 5%;
+}
+
+
+#biography {
+    padding: 5%;
+}
+
+#bombe {
+    padding: 5%;
+    background-color: rgb(235, 231, 231);
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 2%;
+}
+
+#turing-test{
+    padding: 5%;
+}
+
+#fun-facts {
+    padding: 5%;
+    background-color: rgb(235, 231, 231);
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 2%;
+}
+
+#aboutme {
+    padding: 5%;
+    margin-bottom: 5px;
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;;
+    margin: auto;
+ }
+
+ #footer_design  {
+    text-decoration: none;
+    margin: auto;
+
+
+ } 
+ 
+ #copyright {
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    justify-content: right;
+
+ }
+
+
+
+/******************media set for big screens****************************/
+@media only screen and (width>1000) {
+    #footdecor {
+        background-image: url(../img/ai.jfif);  
+        background-repeat: no-repeat;
+        background-size: cover; 
+        position: relative; 
+        height: 80%; 
+        padding-right:0;               
+        background-position: left; 
+        }
+
+    footer {
+        height: 200px;
+    }
+}
+/*para moviles*/
+
+@media only screen and (width<700px) {
+    #wrapper {
+        width: 95%;
+    }
+    
+    .nav-enlace {
+        display: none;
+    }
+
+    #fafabars{
+        display: contents;
+        align-content: center;
+        background: black;
+        color: white;
+        padding-right: 50px;
+        padding-left: 20px;
+        margin: 10px;
+        margin-right: 10px;
+        float: left;
+        text-decoration: none;
+    }
+   
+    
+    #hero button {
+    
+        top: 82%;
+        left: 50%;
+    } 
+    #name {
+        top: -20px;
+    } 
+    #lastname {
+        top: 100px;
+    }
+
+    
+    }
+    footer {
+        height:100px;
+    }
+
+    #footdecor {
+        background-image: url(../img/ai.jfif);  
+        background-repeat: no-repeat;
+        background-size: 50%; 
+        background-position: left ;
+        position: relative; 
+        height: 100px;                
+        background-position: 2%; 
+
+    }
+    
+
+    
+
+    
+        
+    
+
+
+
+
+
+
