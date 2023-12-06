@@ -7,25 +7,67 @@
     <!-- enlazo la tipografia de estilo -->
     <link rel="stylesheet" href="./css/AlanTuring.css">
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/AlanTuring.js"></script>
+
 </head>
 <body>
     <section id="hero">   
     <nav>
-        <ul>
-            <a href="#" class="nav-enlace" href="home">Home</a>
-            <a href="#" class="nav-enlace" href="contents">Contents</a>
-            <a href="#" class="nav-enlace" href="about me">About Me</a>
-            <a href="#" id="fafabars"><img src="./img/fabars.jfif" alt=""></a>
-            
-        </ul>
+        <div class="mobilecontainer">
+            <div class="topnav">
+                <a href="#blank" id="nospace" class="active"></a>
+    <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                    <a href="#hero" class="home">Home</a>   
+                    <a href="#contents">Contents</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#aboutme">About me</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+                
+            </div>    
+        </div>
     </nav>
      
         <div><p id ="name">Alan</p></div>
         <div><p id="lastname">Turing</pid></p></div>
-        <button>¿Enigma?</button>
+         <a href="#contents">
+         <div class="voltage-button">
+  
+           <button>¿ENIGMA?</button>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 234.6 61.3" preserveAspectRatio="none" xml:space="preserve">
+           
+              <filter id="glow">
+                <feGaussianBlur class="blur" result="coloredBlur" stdDeviation="2"></feGaussianBlur>
+                <feTurbulence type="fractalNoise" baseFrequency="0.075" numOctaves="0.3" result="turbulence"></feTurbulence>
+            <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="30" xChannelSelector="R" yChannelSelector="G" result="displace"></feDisplacementMap>
+                <feMerge>
+                  <feMergeNode in="coloredBlur"></feMergeNode>
+                  <feMergeNode in="coloredBlur"></feMergeNode>
+                  <feMergeNode in="coloredBlur"></feMergeNode>
+                  <feMergeNode in="displace"></feMergeNode>
+                  <feMergeNode in="SourceGraphic"></feMergeNode>
+                </feMerge>
+              </filter>
+              <path class="voltage line-1" d="m216.3 51.2c-3.7 0-3.7-1.1-7.3-1.1-3.7 0-3.7 6.8-7.3 6.8-3.7 0-3.7-4.6-7.3-4.6-3.7 0-3.7 3.6-7.3 3.6-3.7 0-3.7-0.9-7.3-0.9-3.7 0-3.7-2.7-7.3-2.7-3.7 0-3.7 7.8-7.3 7.8-3.7 0-3.7-4.9-7.3-4.9-3.7 0-3.7-7.8-7.3-7.8-3.7 0-3.7-1.1-7.3-1.1-3.7 0-3.7 3.1-7.3 3.1-3.7 0-3.7 10.9-7.3 10.9-3.7 0-3.7-12.5-7.3-12.5-3.7 0-3.7 4.6-7.3 4.6-3.7 0-3.7 4.5-7.3 4.5-3.7 0-3.7 3.6-7.3 3.6-3.7 0-3.7-10-7.3-10-3.7 0-3.7-0.4-7.3-0.4-3.7 0-3.7 2.3-7.3 2.3-3.7 0-3.7 7.1-7.3 7.1-3.7 0-3.7-11.2-7.3-11.2-3.7 0-3.7 3.5-7.3 3.5-3.7 0-3.7 3.6-7.3 3.6-3.7 0-3.7-2.9-7.3-2.9-3.7 0-3.7 8.4-7.3 8.4-3.7 0-3.7-14.6-7.3-14.6-3.7 0-3.7 5.8-7.3 5.8-2.2 0-3.8-0.4-5.5-1.5-1.8-1.1-1.8-2.9-2.9-4.8-1-1.8 1.9-2.7 1.9-4.8 0-3.4-2.1-3.4-2.1-6.8s-9.9-3.4-9.9-6.8 8-3.4 8-6.8c0-2.2 2.1-2.4 3.1-4.2 1.1-1.8 0.2-3.9 2-5 1.8-1 3.1-7.9 5.3-7.9 3.7 0 3.7 0.9 7.3 0.9 3.7 0 3.7 6.7 7.3 6.7 3.7 0 3.7-1.8 7.3-1.8 3.7 0 3.7-0.6 7.3-0.6 3.7 0 3.7-7.8 7.3-7.8h7.3c3.7 0 3.7 4.7 7.3 4.7 3.7 0 3.7-1.1 7.3-1.1 3.7 0 3.7 11.6 7.3 11.6 3.7 0 3.7-2.6 7.3-2.6 3.7 0 3.7-12.9 7.3-12.9 3.7 0 3.7 10.9 7.3 10.9 3.7 0 3.7 1.3 7.3 1.3 3.7 0 3.7-8.7 7.3-8.7 3.7 0 3.7 11.5 7.3 11.5 3.7 0 3.7-1.4 7.3-1.4 3.7 0 3.7-2.6 7.3-2.6 3.7 0 3.7-5.8 7.3-5.8 3.7 0 3.7-1.3 7.3-1.3 3.7 0 3.7 6.6 7.3 6.6s3.7-9.3 7.3-9.3c3.7 0 3.7 0.2 7.3 0.2 3.7 0 3.7 8.5 7.3 8.5 3.7 0 3.7 0.2 7.3 0.2 3.7 0 3.7-1.5 7.3-1.5 3.7 0 3.7 1.6 7.3 1.6s3.7-5.1 7.3-5.1c2.2 0 0.6 9.6 2.4 10.7s4.1-2 5.1-0.1c1 1.8 10.3 2.2 10.3 4.3 0 3.4-10.7 3.4-10.7 6.8s1.2 3.4 1.2 6.8 1.9 3.4 1.9 6.8c0 2.2 7.2 7.7 6.2 9.5-1.1 1.8-12.3-6.5-14.1-5.5-1.7 0.9-0.1 6.2-2.2 6.2z" fill="transparent" stroke="#fff"></path>
+              <path class="voltage line-2" d="m216.3 52.1c-3 0-3-0.5-6-0.5s-3 3-6 3-3-2-6-2-3 1.6-6 1.6-3-0.4-6-0.4-3-1.2-6-1.2-3 3.4-6 3.4-3-2.2-6-2.2-3-3.4-6-3.4-3-0.5-6-0.5-3 1.4-6 1.4-3 4.8-6 4.8-3-5.5-6-5.5-3 2-6 2-3 2-6 2-3 1.6-6 1.6-3-4.4-6-4.4-3-0.2-6-0.2-3 1-6 1-3 3.1-6 3.1-3-4.9-6-4.9-3 1.5-6 1.5-3 1.6-6 1.6-3-1.3-6-1.3-3 3.7-6 3.7-3-6.4-6-6.4-3 2.5-6 2.5h-6c-3 0-3-0.6-6-0.6s-3-1.4-6-1.4-3 0.9-6 0.9-3 4.3-6 4.3-3-3.5-6-3.5c-2.2 0-3.4-1.3-5.2-2.3-1.8-1.1-3.6-1.5-4.6-3.3s-4.4-3.5-4.4-5.7c0-3.4 0.4-3.4 0.4-6.8s2.9-3.4 2.9-6.8-0.8-3.4-0.8-6.8c0-2.2 0.3-4.2 1.3-5.9 1.1-1.8 0.8-6.2 2.6-7.3 1.8-1 5.5-2 7.7-2 3 0 3 2 6 2s3-0.5 6-0.5 3 5.1 6 5.1 3-1.1 6-1.1 3-5.6 6-5.6 3 4.8 6 4.8 3 0.6 6 0.6 3-3.8 6-3.8 3 5.1 6 5.1 3-0.6 6-0.6 3-1.2 6-1.2 3-2.6 6-2.6 3-0.6 6-0.6 3 2.9 6 2.9 3-4.1 6-4.1 3 0.1 6 0.1 3 3.7 6 3.7 3 0.1 6 0.1 3-0.6 6-0.6 3 0.7 6 0.7 3-2.2 6-2.2 3 4.4 6 4.4 3-1.7 6-1.7 3-4 6-4 3 4.7 6 4.7 3-0.5 6-0.5 3-0.8 6-0.8 3-3.8 6-3.8 3 6.3 6 6.3 3-4.8 6-4.8 3 1.9 6 1.9 3-1.9 6-1.9 3 1.3 6 1.3c2.2 0 5-0.5 6.7 0.5 1.8 1.1 2.4 4 3.5 5.8 1 1.8 0.3 3.7 0.3 5.9 0 3.4 3.4 3.4 3.4 6.8s-3.3 3.4-3.3 6.8 4 3.4 4 6.8c0 2.2-6 2.7-7 4.4-1.1 1.8 1.1 6.7-0.7 7.7-1.6 0.8-4.7-1.1-6.8-1.1z" fill="transparent" stroke="#fff"></path>
+            </svg>
+            <div class="dots">
+              <div class="dot dot-1"></div>
+              <div class="dot dot-2"></div>
+              <div class="dot dot-3"></div>
+              <div class="dot dot-4"></div>
+              <div class="dot dot-5"></div>
+            </div>
+          </div></a>  
     </section>
     <div id="wrapper">
         <section id="contents">
+            <a href="#hero" class="homepage"><i class="fa fa-home" aria-hidden="true"></i>
+            </a>
             <h2 id="content-header">CONTENTS</h2>
             <blockquote>
                 “It seems probable that once the machine thinking method had started, it would not take long to outstrip our feeble powers... They would be able to converse with each other to sharpen their wits. At some stage therefore, we should have to expect the machines to take control.” 
@@ -33,25 +75,106 @@
             </blockquote>
             <p>In this section there will be a series of cards with associated fotos that will link directly to the different sections of my web page. It will also include blockquote.  
             </p>
+            
         </section>
         <section id="biography">
+            <a href="#hero" class="homepage"><i class="fa fa-home" aria-hidden="true"></i>
+            </a>
             <h2 id="biography-header">BIOGRAPHY</h2>
             <p>This section will include a complete biography of Alan Turing, including a gallery of photos and video links.</p>
         </section>
         <section id="bombe">
+            <a href="#hero" class="homepage"><i class="fa fa-home" aria-hidden="true"></i>
+            </a>
             <h2 id="bombe-header">THE BOMBE</h2>
             <p>This section will include complete information about the bombe, including fotos and links to videos and books</p>
         </section>
         <section id="turing-test">
+            <a href="#hero" class="homepage"><i class="fa fa-home" aria-hidden="true"></i>
+            </a>
             <h2 id="turing-test-header">THE TURING TEST</h2>
             <p>This section will include complete information about the turing test and machine and its link to artifical intelligence. It will also contain related fotos, videos, book links.</p>
         </section>
 
         <section id="fun-facts">
+            <a href="#hero" class="homepage"><i class="fa fa-home" aria-hidden="true"></i>
+            </a>
             <h2 id="fun-facts-header">FUN FACTS</h2>
             <p>This section will include other related myths, truths, facts and figures related to Alan Turing.</p>
         </section>
+        <section id="gallery">
+            <a href="#hero" class="homepage"><i class="fa fa-home" aria-hidden="true"></i>
+            </a>
+            <h2 id="gallery-header">GALLERY</h2>
+            <!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="img/gallery_alanquote1.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="img/gallery_turingmachine2.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="img/gallery_replica_bombe_exterior.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="img/gallery_bombe_interior.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="img/gallery_testdeturing.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="img/gallery_alanquote_last.jpg" style="width:100%">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="img/gallery_alanquote1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Alan Turing Famous Quote">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/gallery_turingmachine2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Turing Machine Proposal">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/gallery_replica_bombe_exterior.jpg" style="width:100%" onclick="currentSlide(3)" alt="Bombe Replica - Exterior view">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/gallery_bombe_interior.jpg" style="width:100%" onclick="currentSlide(4)" alt="Bombe Replica - Interior view">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/gallery_testdeturing.jpg" style="width:100%" onclick="currentSlide(5)" alt="The Turing Test">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/gallery_alanquote_last.jpg" style="width:100%" onclick="currentSlide(6)" alt="Alan Turing's Reflection on Computers">
+      </div>
+    </div>
+  </div>
+        </section>
         <section id="aboutme">
+            <a href="#hero" class="homepage"><i class="fa fa-home" aria-hidden="true"></i>
+            </a>
             <h2 id="aboutme-header">ABOUT ME</h2>
             <img src="./img/github.png" alt="Github">
         <img src="./img/linkedin.png" alt="Linkedin">
@@ -60,12 +183,30 @@
         </section>
     </div> 
     
-    <div class="footer">
-        <ul>
-            <p  id="foot_design"><img src="./img/ai.jfif" alt="">@copyright sandrapirpamer</p>
+    <footer>
+
             
-        </ul>
-    </div>
+            <div class="grid-3">
+                <div class="col-3">
+                <img id="footer" src="./img/ai.jfif" alt="">
+                </div>
+        
+                <div class="col-3">
+                    <ul id="social-icons" >
+                        <li id="linkssites">Links to Alan Turing Sites:   </li>
+                        <li><a class="twitter" href="https://twitter.com/AlanTuringYear" target="blank"><img src="./img/icons8-twitterx-32.png" alt="twitter"></a></li>
+                        <li><a class="facebook" href="https://www.facebook.com/AlanTuringCodebreaker/?locale=es_ES" target="blank"><img src="./img/icons8-facebook-32.png" alt="facebook"></a></li>
+                        <li><a class="linkedin" href="https://www.linkedin.com/company/cpifpalanturing/?originalSubdomain=es" target="blank"><img src="./img/linkedin.png" alt="Linkedin"></a></li>   
+                    </ul>
+                    
+                </div>
+
+                <div class="col-3">
+                    <p id="copyright">@copyright sandrapirpamer</p>
+                </div>
+            </div>   
+        
+        </footer>
 
 
 
