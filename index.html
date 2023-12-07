@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="./css/AlanTuring.css">
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/AlanTuring.js"></script>
-
+    
 </head>
 
 <body>
@@ -67,72 +66,50 @@
           </div></a>  
   </section>
     
-    <div id="wrapper">
-        <!-- <section id="contents">
-            <a href="#hero" class="homepage"><i class="fa fa-home" aria-hidden="true"></i>
-            </a>
-            <h2 id="content-header">CONTENTS</h2>
-            <blockquote>
-                “It seems probable that once the machine thinking method had started, it would not take long to outstrip our feeble powers... They would be able to converse with each other to sharpen their wits. At some stage therefore, we should have to expect the machines to take control.” 
-                -Alan Turing
-            </blockquote>
-            <p>In this section there will be a series of cards with associated fotos that will link directly to the different sections of my web page. It will also include blockquote.  
-            </p>
-        </section> -->
-        <section id="contents">
-          <a href="#hero" class="homepage"><i class="fa fa-home" aria-hidden="true"></i>
-          </a>
-          <h2 id="content-header">CONTENTS</h2>
-          <blockquote>
-            “It seems probable that once the machine thinking method had started, it would not take long to outstrip our feeble powers... They would be able to converse with each other to sharpen their wits. At some stage therefore, we should have to expect the machines to take control.” 
-            -Alan Turing
-        </blockquote>
-          
-          <div class="grid-3">
-              <div class="col-3">
-                  <!-- vamos a hacer una card interna -->
-                  <div class="card">
+  <div id="wrapper">
+      
+    <section id="contents">
+      <a href="#hero" class="homepage"><i class="fa fa-home" aria-hidden="true"></i>
+      </a>
+      <h2 id="content-header">CONTENTS</h2>
+      <blockquote>
+        “It seems probable that once the machine thinking method had started, it would not take long to outstrip our feeble powers... They would be able to converse with each other to sharpen their wits. At some stage therefore, we should have to expect the machines to take control.” 
+        -Alan Turing
+      </blockquote>
+      
+      <div class="grid-3">
+          <div class="col-3">
+              <div id="card-1" class="card">
+                    <img class="cardimg" src="./img/card_alanturing_statue.jpeg" alt="">
                     
-                        <img class="cardimg" src="./img/card_alanturing_statue.jpeg" alt="">
-                        <button class="buttoncard">Biography</button>
-                      
-                      
-                  </div>
               </div>
-              <div class="col-3">
-                  <!-- vamos a hacer una card interna -->
-                  <div id="card2" class="card">
-                      <img class="cardimg"src="./img/Bombe_card.jpg" alt="">
-                      
-                      <button class="buttoncard"> Bombe</button></div>
-              </div>
-              <div class="col-3">
-                  <!-- vamos a hacer una card interna -->
-                  <div id="card-3" class="card">
-                      
-                      <img class ="cardimg" src="./img/turingtest_section.jpg" alt="">
-                      
-                      <button class="buttoncard">More Inventions</button>
-                  </div>
-              </div>
-              
-              
           </div>
-  
-          
-      </section>
+          <div class="col-3">
+              <div id="card-2" class="card">
+                  <img class="cardimg"src="./img/Bombe_card.jpg" alt="">
+                
+              </div>
+          </div>
+          <div class="col-3">
+              <div id="card-3" class="card">
+                  <img class ="cardimg" src="./img/turingtest_section.jpg" alt="">
+              </div>
+          </div>
+      </div>
+
+        
+        </section>
         <section id="divider"></section>
         <section id="biography">
             <a href="#hero" class="homepage"><i class="fa fa-home" aria-hidden="true"></i>
             </a>
             <div class="grid-2"> 
               <div class="col-2">
-                  <img id="introimg" src="./img/alanturing_biography.jpg" alt="Image of Alan Turing">
+                  <img id="introimg" src="./img/turing_biography_2.jfif" alt="Image of Alan Turing">
               </div>
               <div class="col-2">
                <h2 class="title">Biography</h2>
                <p>Alan Turing (born June 23, 1912, London, England—died June 7, 1954, Wilmslow, Cheshire) British mathematician and logician who made major contributions to mathematics, cryptanalysis, logic, philosophy, and mathematical biology and also to the new areas later named computer science, cognitive science, artificial intelligence, and artificial life...</p>
-               <!-- vínculo a otra página de mi site -->
                <a href="intro.html"><button>Read more</button></a>
               </div>
            </div>
@@ -142,20 +119,21 @@
         <section id="bombe">
             <a href="#hero" class="homepage"><i class="fa fa-home" aria-hidden="true"></i>
             </a>
-            <h2 id="bombe-header">THE BOMBE</h2>
-            <div class="grid-2"> 
-              <div class="col-2">
-               <!-- video incrustado -->
-                <div class="container">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/WTNgeNFuCDM?si=MAqSpvDMTsanLkqa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>   
-              </div>
-              <div class="col-2">
-               <p></p>
+            <div id="bombe-container">
+              <h2 id="bombe-header">THE BOMBE</h2>
+            
+            
+            
+              <div class="videocontainer">
+                  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/WTNgeNFuCDM?si=MAqSpvDMTsanLkqa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>   
+            
+          
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, eligendi reiciendis quaerat possimus asperiores molestias ipsa, ut aperiam quidem debitis assumenda labore nihil error dolore eos commodi nemo! Aliquam, quam.</p>
                <!-- vínculo a otra página de mi site -->
                <a href="intro.html"><button>Read more</button></a>
               </div>
-            </div>
+            
 
            
         </section>
@@ -163,25 +141,51 @@
         <section id="turing-test">
             <a href="#hero" class="homepage"><i class="fa fa-home" aria-hidden="true"></i>
             </a>
-            <h2 id="turing-test-header">THE TURING TEST</h2>
+            <h2 id="turing-test-header">OTHER INVENTIONS</h2>
             <p>This section will include complete information about the turing test and machine and its link to artifical intelligence. It will also contain related fotos, videos, book links.</p>
-        </section>
+            <!-- animated accordion section -->
+            <h2></h2>Click on different sections below!!!
+            
+            <button class="accordion">The Turing Test</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            
+            <button class="accordion">The Turing Machine</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+             
+            
+          </section>
 
         <section id="fun-facts">
-            <a href="#hero" class="homepage"><i class="fa fa-home" aria-hidden="true"></i>
-            </a>
+          <header class="funfacts_header">
+            <a href="#hero" class="homepage"><i class="fa fa-home" aria-hidden="true"></i></a>
             <h2 id="fun-facts-header">FUN FACTS</h2>
-            <div class="grid-2"> 
-              <div class="col-2">
-               <!-- video incrustado -->
-                <div class="container">
-                  <iframe  class="responsive-iframe"   src="https://www.youtube.com/embed/-6yma88eQhs" title="3 crazy facts about Alan Turing that may shock you #trending #shorts #science #facts 🔥💯💖" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></iframe>
-                </div>   
-              </div>
-              <div class="col-2">
-                <img src="./img/fun_ facts_alan_turing.jpg" alt="Image of Alan Turing and the Apple Logo">
-              </div>
-          </section>
+          </header>
+
+          <div class="funfacts-container"> 
+            
+            <div class="funfacts_element">
+              <div class="video-container"> 
+                <iframe  class="responsive-iframe"   src="https://www.youtube.com/embed/-6yma88eQhs" title="3 crazy facts about Alan Turing that may shock you #trending #shorts #science #facts 🔥💯💖" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></iframe>
+              </div>   
+            </div>
+            <div class="funfacts_element">
+              <img class="imgfunfacts" src="./img/fun_ facts_alan_turing.jpg" alt="Image of Alan Turing and the Apple Logo">
+            </div>
+          </div>
+          
+          <!-- <div class="funfacts-container"> 
+            <div class="funfacts_element">
+
+            </div>
+            <div class="funfacts_element">
+              <img class="imgfunfacts" src="./img/fun_ facts_alan_turing.jpg" alt="Image of Alan Turing and the Apple Logo">
+            </div>
+          </div> -->
+        </section>
 
         <section id="gallery">
             <a href="#hero" class="homepage"><i class="fa fa-home" aria-hidden="true"></i>
@@ -265,7 +269,7 @@
             <p>This section will include information about the creator of this page, including contact information.</p>
         </section>
     </div> 
-    
+  
     <footer class="container">
       <div class="grid-3d">
         <div class="col-3">
@@ -314,6 +318,7 @@
       </div>
   </footer><!-- prácticamente obligatorio-->
 
+  <script src="js/AlanTuring.js"></script>
 
 </body>
         
