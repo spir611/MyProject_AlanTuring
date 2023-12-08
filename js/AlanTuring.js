@@ -9,7 +9,7 @@
 /*                                                                   */   
 /*********************************************************************/
 
-/* navigation bar */
+/************************navigation bar*******************************/
 
 function myFunction() {
     var x = document.getElementById("myLinks");
@@ -21,7 +21,8 @@ function myFunction() {
   }
 
 
-  /******for accordion******************************* */
+  /********************for accordion**********************************/
+
   var acc = document.getElementsByClassName("accordion");
   var i;
   
@@ -38,7 +39,8 @@ function myFunction() {
   }
   
 
-  /*****************************gallery************************ */
+  /*************************gallery************************************/
+  
   let slideIndex = 1;
 showSlides(slideIndex);
 
