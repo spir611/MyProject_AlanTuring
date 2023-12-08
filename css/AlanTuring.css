@@ -835,7 +835,7 @@ footer .fa-github {background-color: rgb(10, 10, 10);}
 
 
 .imagefooter{
-    position: relative;
+  
     left: 99%;
     top: 20%;
 }
@@ -1288,7 +1288,7 @@ footer a p:hover {color:rgb(9, 50, 235);
       color: rgb(9, 50, 235);
       font-size: 1.3em;
       text-align: center;
-      margin-top: 25px;  
+      margin-top: 10px;  
       padding-top: 3%;
   }
 
