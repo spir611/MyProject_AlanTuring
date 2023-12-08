@@ -726,7 +726,7 @@ blockquote {
 
 
 #aboutme {
-    padding: 5%;
+    padding: 5px;
     position: relative;
     height: 50vh;
     border: 2px solid rgb(9, 50, 235);
@@ -736,19 +736,14 @@ blockquote {
 }
 
 
-#aboutme .homepage{
-    position: absolute;
-    right: 20px;
-}
-
 #aboutme h2{
-  margin-top: 35px;
+  margin-top: 8px;
   margin-bottom: 20px;
   text-align: center;
 }
 
 #contactmessage {
-  padding-top: 25px;
+  padding-top: 15px;
 }
 
 
@@ -844,12 +839,12 @@ footer .fa-github {background-color: rgb(10, 10, 10);}
     cursor:pointer;}
 
 
-.imagefooter{
+/* .imagefooter{
   
     left: 99%;
     top: 20%;
 }
-
+ */
 
 .menufooter {
     position: relative;
@@ -905,64 +900,6 @@ footer a p:hover {color:rgb(9, 50, 235);
     height: calc(80% + 4.5em);
 }
 
-.topnav a:not(){display: none;} 
-  
-.topnav a.icon {
-    float: right;
-    display: block;
-    position: fixed;
-}
-
-.mobile-container {
-    max-width: 980px;
-    margin: auto;
-    height: 600px;
-    color: white;
-    border-radius: 20px;
-}
-    
-.topnav {
-    overflow: hidden;
-    background-color: transparent;
-    position: relative;
-    height: 600px;
-    width:150px;
-    float: right;
-}
-
-.topnav #nospace {
-    background-color: transparent;
-}
-    
-.topnav #myLinks {
-    display: none;
-}
-  
-#myhome{
-    top: 17px;
-}
-    
-.topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 1.2em;
-    height: 40px;
-    text-align: right;
-    display: block;
-}
-    
-
-    
-.topnav a:hover {
-    background-color: white;
-    color: rgb(9, 50, 235);
-}
-    
-.active {
-    color: white; 
-    height: 25px;
-}
 
 .grid-3 {
     display:grid;
@@ -975,6 +912,9 @@ footer a p:hover {color:rgb(9, 50, 235);
     
 }  
 
+.imagefooter{
+  display: none;
+}
 
 
 /**********************************responsivity styling for tablets*********************************/
@@ -1097,7 +1037,7 @@ footer a p:hover {color:rgb(9, 50, 235);
   height: auto;
 }
 
-.imagefooter {display: none;}
+.col-3imagefooter {display: none;}
       
 .card img {
     margin-left: 25%;
@@ -1206,7 +1146,7 @@ footer a p:hover {color:rgb(9, 50, 235);
     top: 100px;
   }
 
-  .topnav a:not(){display: none;} 
+  /* .topnav a:not(){display: none;} 
   
   .topnav a.icon {
     float: right;
@@ -1246,7 +1186,7 @@ footer a p:hover {color:rgb(9, 50, 235);
     background-color: rgb(9, 50, 235);
     color: white;
   }    
-
+ */
 
   .grid-3{
       display: grid;
