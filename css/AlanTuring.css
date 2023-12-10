@@ -1277,6 +1277,10 @@ footer a p:hover {
       padding-top: 3%;
   }
 
+  .modal-content{
+    font-size: .5em;
+  }
+
     
 }
     
