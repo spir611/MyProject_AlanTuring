@@ -856,15 +856,9 @@ footer .fa-github {background-color: rgb(10, 10, 10);}
 
 
 #myBtn {
-    cursor:pointer;}
-
-
-/* .imagefooter{
-  
-    left: 99%;
-    top: 20%;
+    cursor:pointer;
 }
- */
+
 
 .menufooter {
     position: relative;
@@ -874,23 +868,83 @@ footer .fa-github {background-color: rgb(10, 10, 10);}
 }
 
 
-footer a p {font-size:1.2em;
-      margin-bottom:15px;
-      border:hidden;
-      padding-left:10px;
-      transition:1s;
+footer a p {
+    font-size:1.2em;
+    margin-bottom:15px;
+    border:hidden;
+    padding-left:10px;
+    transition:1s;
     padding-top: 2px;
 }
 
 
-footer a p:hover {color:rgb(9, 50, 235);
-            border-left:3px solid white;}
+footer a p:hover {
+    color:rgb(9, 50, 235);
+    border-left:3px solid white;}
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 10px; 
+    left: 3px;
+    bottom: 5px;
+    width: fit-content; 
+    height: auto; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+#myBtn{
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 1em ;
+    padding-left: 1px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+#myBtn:hover{
+    color: rgb(9, 50, 235);
+}
+
+
+.modal-content {
+    background-color: blue;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid gray;
+    width: fit-content;
+    height: fit-content;
+    line-height: 1px;
+    font-size: 1em;
+    font-family: textonormal;
+    bottom:0;
+}
+
+
+.close {
+    color: white;
+    float: right;
+    font-size: 15px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}            
 
 
 
 /****************************************end regular styling PC***********************************/
- 
- 
 
 
 
@@ -898,7 +952,9 @@ footer a p:hover {color:rgb(9, 50, 235);
 
 
 
- /*************************************************************************************************/
+
+
+/*************************************************************************************************/
 /********************************************RESPONSIVITY******************************************/
 /******************************Three media breaks larger screens tablet and mobile*****************/
 
@@ -1241,7 +1297,6 @@ footer a p:hover {color:rgb(9, 50, 235);
       text-align: right;
     }
 }
-
 
 
 
