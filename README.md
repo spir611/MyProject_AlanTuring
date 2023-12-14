@@ -25,7 +25,7 @@
   <li>Contents</li>
   <li>Biography (subsection Contents)</li>
   <li>The Bombe (subsection Contents</li>
-  <li>Other Inventions (subsection Contents</li>
+  <li>Other Inventions (subsection Contents)</li>
   <li>Fun Facts</li>
   <li>Gallery</li>
   <li>Contact</li>
@@ -64,15 +64,17 @@ Menu which when clicked on lead directly to one of the three subsections: The Bi
 <h3>(3)Other Inventions</h3>
 <p>This section contans an accordion with a specially designed pattern background (created via an online pattern generator <a href="https://doodad.dev/pattern-generator/">https://doodad.dev/pattern-generator/</a>
  blending the colours used in the Project´s Colour Palette. The two-section accordion upon click opens up to brief information on the Turing Test and the Turing Machine and each one 
-contains a Read More button linking to articles relating to each of these inventions:
-         <a href="https://www.lifewire.com/what-is-the-turing-test-7504875">https://www.lifewire.com/what-is-the-turing-test-7504875</a> 
-         <a href="https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/turing-machine/one.html">https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/turing-machine/one.html</a>.</p>
+contains a Read More button linking to articles relating to each of these inventions:</p>
+  <ul>      
+    <li><a href="https://www.lifewire.com/what-is-the-turing-test-7504875">https://www.lifewire.com/what-is-the-turing-test-7504875</a> </li>
+    <li><a href="https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/turing-machine/one.html">https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/turing-machine/one.html</a></li>
+  </ul> 
          
 
 <p></p>
 <h3>Fun Facts Section</h3>
 <p>This section contains a responsive grid layout (two columns in PC and down to 1 in mobile screens). The grid is composed of a video titled "Three Crazy Facts" by the Homo Deus Project with
-corresponding link to Youtube: <a href="https://www.youtube.com/watch?v=-6yma88eQhs"> </a>) and an image containing a portrait of Alan Turing and the Apple logo. Upon clicking, the image links to an article written by Manchester´s Finest titled "Myths of
+corresponding link to Youtube: <a href="https://www.youtube.com/watch?v=-6yma88eQhs">Three Crazy Facts Video </a> and an image containing a portrait of Alan Turing and the Apple logo. Upon clicking, the image links to an article written by Manchester´s Finest titled "Myths of
 Manchester: The Apple Logo & Alan Turing."<a href="https://www.manchestersfinest.com/articles/manchester-myths-apple-logo-alan-turing/">https://www.manchestersfinest.com/articles/manchester-myths-apple-logo-alan-turing/  
 </a></p>
 <p></p>
@@ -109,7 +111,7 @@ Manchester: The Apple Logo & Alan Turing."<a href="https://www.manchestersfinest
 <p>Two combining font-families are used in the project: </p>
 <ul>
   <li>Checkbko.tff: downloaded from : <a href="https://www.1001freefonts.com/checkbook.font">https://www.1001freefonts.com/checkbook.font></a> : Used for special lettering in titles and buttons</li>
-  <li></li>  
+  <li>Open-Sans Regular: for all other normal text styling</li>  
 </ul>
 
 
