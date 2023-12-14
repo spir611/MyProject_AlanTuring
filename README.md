@@ -19,7 +19,7 @@
  inorder to shed light on his contributions to the world of Computer Science & Artificial Intelligence. </p>
 
 <h2 id="structure">Structure</h2>
-<p>My web is divided into 9 sections</p>
+<p>My web is divided into 9 sections (three of which are Subsections)</p>
 <ul>
   <li>Hero Section</li>  
   <li>Contents</li>
@@ -44,19 +44,22 @@
 
 <p>The section is divided into a blockquote section in the upper portion of the section and in the bottom portion a grid layout of 3 cards which alter from a 33%/33%/33% layout
 in PCs down to a 100% one-column layout in mobile phones to achieve responsiveness in different screen sizes. The cards, which contain theme-related images, act as a Contents
-Menu which when clicked on lead directly to one of the three subsections: The Biography, The Bombe & Other Inventions.</p>
+Menu which when clicked on lead directly to one of the three subsections: The Biography <a href="https://assets.newatlas.com/dims4/default/2427127/2147483647/strip/true/crop/1024x819+0+0/resize/1200x960!/quality/90/?url=http:%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Farchive%2Fturing_turns100-1.jpg">Statue Image</a> , The Bombe <a href="https://assets.wired.com/photos/w_2500/wp-content/uploads/2014/11/COMPLETE-bombe-front-elevation.jpg">The Bombe Image</a> & Other Inventions <a href="https://cdn.educba.com/academy/wp-content/uploads/2019/11/turing-test-in-AI-768x432.png">Turing Test Image</a>  .</p>
 <p></p>
 
 
 <h3>Subsections (3):</h3>
 
+
 <h3>(1)The Biography</h3>
-<p>This subsection contains a basic two grid layout with a black and white portrait of Alan Turing and introduction paragraph of his biography. There also a Read More button styled
+<p>This subsection contains a basic two grid layout with a black and white portrait of Alan Turing: <a href="https://cdn.britannica.com/81/191581-050-8C0A8CD3/Alan-Turing.jpg">Alan Turing Portrait</a>  and introduction paragraph of his biography. There also a Read More button styled
  with the special "Computer Style Lettering" used in all buttons. Upon clicking, the Read More button links directly to the Britannia Enciclopedia Web Page on Alan Turing´s Biography.</p>
+
 
 <h3>(2)The Bombe</h3>
 <p> This subsection contains a grid layout containing a video created by Mr Sensible Historic: <a href="https://www.youtube.com/watch?v=WTNgeNFuCDM&t=1501s">(https://www.youtube.com/watch?v=WTNgeNFuCDM&t=1501s)</a> & its the corrsponding link to YouTube and in addition, related text. The Read More button links 
  to an article written by the National Museum of Computing reviewing the book released on the same topic "The Bombe: The Machine that defeated Enigma" by the author Dermot Turing.</p>
+
 
 <h3>(3)Other Inventions</h3>
 <p>This section contans an accordion with a specially designed pattern background (created via an online pattern generator <a href="https://doodad.dev/pattern-generator/">https://doodad.dev/pattern-generator/</a>
@@ -66,18 +69,33 @@ contains a Read More button linking to articles relating to each of these invent
          <a href="https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/turing-machine/one.html">https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/turing-machine/one.html</a>.</p>
          
 
-
+<p></p>
 <h3>Fun Facts Section</h3>
 <p>This section contains a responsive grid layout (two columns in PC and down to 1 in mobile screens). The grid is composed of a video titled "Three Crazy Facts" by the Homo Deus Project with
 corresponding link to Youtube: <a href="https://www.youtube.com/watch?v=-6yma88eQhs"> </a>) and an image containing a portrait of Alan Turing and the Apple logo. Upon clicking, the image links to an article written by Manchester´s Finest titled "Myths of
 Manchester: The Apple Logo & Alan Turing."<a href="https://www.manchestersfinest.com/articles/manchester-myths-apple-logo-alan-turing/">https://www.manchestersfinest.com/articles/manchester-myths-apple-logo-alan-turing/  
 </a></p>
+<p></p>
 
+
+<h3>Gallery Section</h3>
+<p>This section contains a slideshow Gallery with 6 images related to Alan Turing which were obtained from the following sources (links:)</p>
+<ul>
+    <li>Image 1: <a href="https://miro.medium.com/v2/resize:fit:1080/0*3KoQ22n6444LQr0K">Alan Turing Famous Quote</a></li>
+   <li>Image 2: <a href="https://i.ytimg.com/vi/Hv9hkWF3TYM/maxresdefault.jpg">The Turing Machine Proposal</a></li>
+   <li>Image 3: <a href="https://s0.geograph.org.uk/geophotos/05/11/18/5111862_10334db1.jpg">The Bombe Replica -Exterior View</a></li>
+   <li>Image 4: <a href="https://i.ytimg.com/vi/Kq59nsLnuvg/maxresdefault.jpg">The Bombe Replica - Interior View</a></li>
+    <li>Image 5: <a href="https://i.abcnewsfe.com/a/187ba44a-8c4a-4a87-96e7-140a1767243f/TuringTestInfographic_v01_DG_1689800738777_hpEmbed_16x9.jpg">The Turing Test</a></li>
+   <li>Image 6: <a href="https://factmyth.com/wp-content/uploads/2016/06/can-machines-think.jpg">Alan Turing's Reflection on Computers</a></li>
+</ul>
+
+<p></p>
 <h3>Footer</h3>
 <p>My footer contains my Social Media links, Credits links, and a copy of my navegation menu. In Pc in also includes an image relating to 
- Artificial Intelligence.</p>
-
-<h2 id="pagestyle">Estilo de la página</h2>
+ Artificial Intelligence. (source link to image: <a href="https://therythmasticworld.blogspot.com/2022/12/artificial-intelligence.html ">Artificial Intelligence Head (author: Michael Elkan)</a></p>
+ 
+<p></p>
+<h2 id="pagestyle">Page Styling</h2>
 <h3>My Colour Palette:</h3>
 <ul>
   <li>RGB(9, 50, 235): for Titles and button wording, hovering (buttons, Navegation Menu, Accordion titles, etc.</li>  
@@ -86,18 +104,26 @@ Manchester: The Apple Logo & Alan Turing."<a href="https://www.manchestersfinest
 </ul>
 
 
-<p>.....</p>
-<h3>Tipografías</h3>
-<p>.....</p>
-<h3>Imágenes</h3>
-<p>.....</p>
-<h3>Videos</h3>
-<p>.....</p>
-...................
-<h2 id="snippets">Code snippets</h2>
-<p>He utilizado los siguientes:</p>
+<p></p>
+<h3>Font-Families</h3>
+<p>Two combining font-families are used in the project: </p>
 <ul>
-  <li>Barra de navegación: tomada de w3Schools "How to" (poner vínculo)</li>
-  <li>Accordion: ..............</li>
-  <li>..........</li>
+  <li>Checkbko.tff: downloaded from : <a href="https://www.1001freefonts.com/checkbook.font">https://www.1001freefonts.com/checkbook.font></a> : Used for special lettering in titles and buttons</li>
+  <li></li>  
+</ul>
+
+
+<h3>Images</h3>
+<p> All images used in the project are included as links in the corresponding section above. Please see sections for complete details (link).</p>
+<h3>Videos</h3>
+<p>All videos used in the project where obtained from YouTube. Please see the corresponding sections above for complete details (source link and author) to each video used.</p>
+<h2 id="snippets">Code Snippets</h2>
+<p>I used the following Code Snippets in my Project: (includes source name and link)</p>
+<ul>
+  <li>Navegation Bar (and Hamburger Menu) in Hero Section: copied from w3Schools in "How to" <a href="https://www.w3schools.com/howto/howto_js_topnav_responsive.asp"> How to ..Responsive TopNav</li>
+  <li>Special Button Effects: Call to Action Button (in Hero Section): <a href="https://uiverse.io/buttons"> Uiverse.io-buttons</a></li>  
+  <li>Accordion: (in Other Inventions Section) <a href="https://www.w3schools.com/howto/howto_js_accordion.asp"> How to..Create Accordian</a></li>
+  <li>Slideshow Gallery: (in Gallery Section)<a href="https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp"> How to..Slideshow Gallery </a></li>
+  <li>Modal: (Credits in Footer Section)<a href="https://www.w3schools.com/howto/howto_css_modals.asp"> How to.Modal</a></li>
+      
 </ul>
