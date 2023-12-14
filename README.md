@@ -1,4 +1,4 @@
-<h1>Final 1st Trimester Evaluation Project for Markup Language - 1st Year DAW (Web Application Development</h1>
+<h1>Abstract : Final 1st Trimester Evaluation Project for Markup Language - 1st Year DAW (Web Application Development)</h1>
 <h2>Alan Turing - Tribute</h2>
 <h2>Index</h2>
 <ul>
@@ -24,7 +24,7 @@
   <li>Hero Section</li>  
   <li>Contents</li>
   <li>Biography (subsection Contents)</li>
-  <li>The Bombe (subsection Contents</li>
+  <li>The Bombe (subsection Contents)</li>
   <li>Other Inventions (subsection Contents)</li>
   <li>Fun Facts</li>
   <li>Gallery</li>
@@ -35,8 +35,8 @@
 <h3>Hero Section</h3>
 <img src="https://github.com/spir611/MyProject_AlanTuring/blob/main/Hero_page_image_capture.png" alt="Hero Section Image Alan Turing" style="width:50%">
 <p>I used a background image created via artificial intelligence in Dall-e which blended all the colours in my colour palette. I used a special Call to<br>
- Action button "Enigma" associated with Alan Turing with special electric effects which are iniatiated upon hovering. The Call to Action button <br>
- leads directly to the Contents Card Menu of the Web. The semi-transparent navegation bar is located along the superior part of the Hero Section in PCs, 
+ Action button "Enigma" associated with Alan Turing with special electric effects which are initiated upon hovering. The Call to Action button <br>
+ leads directly to the Contents Card Menu of the Web. The semi-transparent Navigation Bar is located along the superior part of the Hero Section in PCs, 
  but tranforms into a Hamburger Menu, located in the superior right-hand corner, in tablets and mobile phones.
 </p>
 <p></p>
@@ -92,8 +92,11 @@ Manchester: The Apple Logo & Alan Turing."<a href="https://www.manchestersfinest
 </ul>
 
 <p></p>
+<h3>Contact Section</h3>
+<p>This section contains my name and contact email address with a direct link to outlook.</p>
+
 <h3>Footer</h3>
-<p>My footer contains my Social Media links, Credits links, and a copy of my navegation menu. In Pc in also includes an image relating to 
+<p>My footer contains my Social Media links (Whatsapp, Facebook, Telegram, LinkedIn and GitHub), Credits links, and a copy of my Navigation Menu. In Pc in also includes an image relating to 
  Artificial Intelligence. (source link to image: <a href="https://therythmasticworld.blogspot.com/2022/12/artificial-intelligence.html ">Artificial Intelligence Head (author: Michael Elkan)</a></p>
  
 <p></p>
@@ -122,7 +125,7 @@ Manchester: The Apple Logo & Alan Turing."<a href="https://www.manchestersfinest
 <h2 id="snippets">Code Snippets</h2>
 <p>I used the following Code Snippets in my Project: (includes source name and link)</p>
 <ul>
-  <li>Navegation Bar (and Hamburger Menu) in Hero Section: copied from w3Schools in "How to" <a href="https://www.w3schools.com/howto/howto_js_topnav_responsive.asp"> How to ..Responsive TopNav</li>
+  <li>Navigation Bar (and Hamburger Menu) in Hero Section: copied from w3Schools in "How to" <a href="https://www.w3schools.com/howto/howto_js_topnav_responsive.asp"> How to ..Responsive TopNav</li>
   <li>Special Button Effects: Call to Action Button (in Hero Section): <a href="https://uiverse.io/buttons"> Uiverse.io-buttons</a></li>  
   <li>Accordion: (in Other Inventions Section) <a href="https://www.w3schools.com/howto/howto_js_accordion.asp"> How to..Create Accordian</a></li>
   <li>Slideshow Gallery: (in Gallery Section)<a href="https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp"> How to..Slideshow Gallery </a></li>
