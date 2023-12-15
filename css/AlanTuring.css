@@ -742,7 +742,7 @@ blockquote {
 
 
 
-/***************************************about me section styling*********************************/
+/***************************************contact section styling*********************************/
 
 
 #aboutme {
@@ -888,8 +888,8 @@ footer a p:hover {
     position: fixed; 
     z-index: 1; 
     padding-top: 10px; 
-    left: 3px;
-    bottom: 5px;
+    left: 40px;
+    bottom: 20px;
     width: fit-content; 
     height: auto; 
     overflow: auto; 
@@ -918,14 +918,14 @@ footer a p:hover {
     background-color: blue;
     color: white;
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid gray;
     width: fit-content;
     height: fit-content;
-    line-height: 1px;
+    top: 15px;
     font-size: 1em;
     font-family: textonormal;
-    bottom:0;
+    
 }
 
 
