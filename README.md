@@ -33,7 +33,7 @@
 </ul>
 
 <h3>Hero Section</h3>
-<img src="https://github.com/spir611/MyProject_AlanTuring/blob/main/Hero_page_image_capture.png" alt="Hero Section Image Alan Turing" style="width:50%">
+<img src="https://github.com/spir611/MyProject_AlanTuring/blob/main/AT-readme/Hero_page_image_capture.png" alt="Hero Section Image Alan Turing" style="width:50%">
 <p>I used a background image created via artificial intelligence in Dall-e which blended all the colours in my colour palette. I used a special Call to<br>
  Action button "Enigma" associated with Alan Turing with special electric effects which are initiated upon hovering. The Call to Action button <br>
  leads directly to the Contents Card Menu of the Web. The semi-transparent Navigation Bar is located along the superior part of the Hero Section in PCs, 
